@@ -17,69 +17,77 @@ This repository contains hands-on implementations of popular Machine Learning al
 - Prediction
 - Data Visualization
 
-The projects are developed using Python and Scikit-learn to strengthen the understanding of machine learning concepts and practical applications.
-
 ---
 
 ## 📂 Projects Included
 
 ### 📌 1. Simple Linear Regression – CGPA vs Placements
-
 **File:** `SimpleLR_CGPA_Placements.ipynb`
 
 **Objective**
-- Predict placement outcomes based on students' CGPA using Simple Linear Regression.
+- Predict placement outcomes based on students' CGPA.
 
-**Key Concepts**
-- Data Visualization
-- Linear Regression
-- Train-Test Split
-- Model Evaluation
-- Prediction
-
-**Evaluation Metrics**
-- R² Score
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
+**Algorithm**
+- Simple Linear Regression
 
 ---
 
 ### 📌 2. Multiple Linear Regression – Diamond Price Prediction
-
 **File:** `MultipleLR_DIAMONDS.ipynb`
 
 **Objective**
 - Predict diamond prices using multiple independent variables.
 
-**Key Concepts**
-- Feature Selection
-- Data Preprocessing
+**Algorithm**
 - Multiple Linear Regression
-- Model Evaluation
-- Prediction
-
-**Evaluation Metrics**
-- R² Score
-- MAE
-- MSE
-- RMSE
 
 ---
 
 ### 📌 3. Logistic Regression – Loan Approval Prediction
-
 **File:** `Logistic_Loan.ipynb`
 
 **Objective**
-- Predict whether a loan application will be approved or rejected.
+- Predict whether a loan application will be approved.
+
+**Algorithm**
+- Logistic Regression
+
+---
+
+### 📌 4. Decision Tree – Breast Cancer Classification
+**File:** `DecisionTree_BreastCancer.ipynb`
+
+**Objective**
+- Classify tumors as Benign or Malignant.
+
+**Algorithm**
+- Decision Tree Classifier
+
+---
+
+### 📌 5. Polynomial Regression – Drug Delivery Prediction
+**File:** `NLR_DrugDelivery.ipynb`
+
+**Objective**
+- Model non-linear relationships in drug delivery data.
+
+**Algorithm**
+- Polynomial Regression
+
+---
+
+### 📌 6. K-Nearest Neighbors (KNN) – Classification
+**File:** `KNN.ipynb`
+
+**Objective**
+- Classify data samples using the K-Nearest Neighbors algorithm based on feature similarity.
 
 **Key Concepts**
-- Data Cleaning
-- Label Encoding
-- Logistic Regression
+- Feature Scaling
+- Distance Metrics
 - Classification
-- Confusion Matrix
+- Model Evaluation
+- Prediction
 
 **Evaluation Metrics**
 - Accuracy
@@ -87,54 +95,10 @@ The projects are developed using Python and Scikit-learn to strengthen the under
 - Recall
 - F1-Score
 - Confusion Matrix
-- Classification Report
 
 ---
 
-### 📌 4. Decision Tree – Breast Cancer Classification
-
-**File:** `DecisionTree_BreastCancer.ipynb`
-
-**Objective**
-- Classify tumors as Benign or Malignant using a Decision Tree Classifier.
-
-**Key Concepts**
-- Decision Tree Classification
-- Data Visualization
-- Feature Importance
-- Prediction
-- Model Evaluation
-
-**Evaluation Metrics**
-- Accuracy Score
-- Confusion Matrix
-- Classification Report
-
----
-
-### 📌 5. Polynomial (Non-Linear) Regression – Drug Delivery Prediction
-
-**File:** `NLR_DrugDelivery.ipynb`
-
-**Objective**
-- Model non-linear relationships in a drug delivery dataset using Polynomial Regression.
-
-**Key Concepts**
-- Polynomial Features
-- Non-Linear Regression
-- Curve Fitting
-- Prediction
-- Model Evaluation
-
-**Evaluation Metrics**
-- R² Score
-- MAE
-- MSE
-- RMSE
-
----
-
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Jupyter Notebook
@@ -150,96 +114,90 @@ The projects are developed using Python and Scikit-learn to strengthen the under
 
 1. Import Libraries
 2. Load Dataset
-3. Data Exploration
-4. Data Cleaning
-5. Data Preprocessing
-6. Feature Selection
-7. Train-Test Split
-8. Model Training
-9. Model Prediction
-10. Model Evaluation
-11. Data Visualization
+3. Data Preprocessing
+4. Exploratory Data Analysis (EDA)
+5. Feature Engineering
+6. Train-Test Split
+7. Model Training
+8. Model Prediction
+9. Model Evaluation
+10. Data Visualization
+
+---
+
+## 📈 Algorithms Included
+
+| Algorithm | Type | Application |
+|-----------|------|-------------|
+| Simple Linear Regression | Regression | Placement Prediction |
+| Multiple Linear Regression | Regression | Diamond Price Prediction |
+| Polynomial Regression | Non-Linear Regression | Drug Delivery Prediction |
+| Logistic Regression | Classification | Loan Approval Prediction |
+| Decision Tree | Classification | Breast Cancer Classification |
+| K-Nearest Neighbors (KNN) | Classification | Classification Problems |
 
 ---
 
 ## 📁 Repository Structure
 
-```
-Machine-Learning-Algorithms/
+```text
+Machine-Learning/
 │
-├── Logistic_Loan.ipynb
-├── DecisionTree_BreastCancer.ipynb
 ├── SimpleLR_CGPA_Placements.ipynb
 ├── MultipleLR_DIAMONDS.ipynb
+├── Logistic_Loan.ipynb
+├── DecisionTree_BreastCancer.ipynb
 ├── NLR_DrugDelivery.ipynb
+├── KNN.ipynb
 ├── README.md
+└── requirements.txt (Optional)
 ```
-
----
-
-## 📈 Algorithms Covered
-
-| Algorithm | Type | Dataset |
-|----------|------|---------|
-| Simple Linear Regression | Regression | CGPA & Placements |
-| Multiple Linear Regression | Regression | Diamonds |
-| Logistic Regression | Classification | Loan Prediction |
-| Decision Tree | Classification | Breast Cancer |
-| Polynomial Regression | Non-Linear Regression | Drug Delivery |
-
----
-
-## 🎯 Learning Outcomes
-
-Through these projects, I learned:
-
-- Data preprocessing techniques
-- Exploratory Data Analysis (EDA)
-- Regression algorithms
-- Classification algorithms
-- Model evaluation techniques
-- Data visualization
-- Machine Learning workflow using Scikit-learn
 
 ---
 
 ## 🚀 How to Run
 
-Clone the repository
-
 ```bash
-git clone https://github.com/Thrinay-creator/Machine-Learning-Algorithms.git
+git clone https://github.com/Thrinay-creator/Machine-Learning.git
 ```
 
-Move into the project folder
-
 ```bash
-cd Machine-Learning-Algorithms
+cd Machine-Learning
 ```
-
-Install dependencies
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn jupyter
 ```
 
-Launch Jupyter Notebook
-
 ```bash
 jupyter notebook
 ```
 
-Open any notebook and run all the cells.
+Open any notebook and run all cells.
 
 ---
 
-## 📌 Future Improvements
+## 🎯 Learning Outcomes
 
-- Add more Machine Learning algorithms
-- Hyperparameter tuning
+- Data Preprocessing
+- Exploratory Data Analysis (EDA)
+- Regression Models
+- Classification Models
+- Model Evaluation
+- Feature Engineering
+- Machine Learning using Scikit-learn
+
+---
+
+## 🔮 Future Improvements
+
+- Add Support Vector Machine (SVM)
+- Add Random Forest
+- Add Naive Bayes
+- Add XGBoost
+- Hyperparameter Tuning
 - Cross Validation
 - Model Deployment using Streamlit
-- Performance comparison of algorithms
 
 ---
 
@@ -248,7 +206,7 @@ Open any notebook and run all the cells.
 **Thrinay Jayavarapu**
 
 - 🎓 B.Tech – Information Technology
-- 💻 Passionate about Machine Learning, Data Science, and Software Development
+- 💻 Interested in Machine Learning, Data Science, and Software Development
 
 ### Connect with Me
 
@@ -257,4 +215,4 @@ Open any notebook and run all the cells.
 
 ---
 
-⭐ If you found this repository helpful, consider giving it a Star!
+⭐ If you find this repository useful, please consider giving it a **Star**.
