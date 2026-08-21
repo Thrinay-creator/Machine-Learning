@@ -173,7 +173,6 @@ Machine-Learning-Algorithms/
 ├── MultipleLR_DIAMONDS.ipynb
 ├── NLR_DrugDelivery.ipynb
 ├── README.md
-└── requirements.txt (Optional)
 ```
 
 ---
